@@ -35,7 +35,10 @@ a:hover {
 h1 , h2, h3 {
   font: inherit;
 }
+img {
+  max-width: 100%;
 
+}
 .container {
 max-width: 1280px;
 padding-inline: 32px;
@@ -43,10 +46,6 @@ margin-inline: auto;
 
 
 }
-/* Utility-first (Classe que so vai fazer uma coisa */
-.grid {
-  display: grid;
-}
-.grid-flow-col {
-  grid-auto-flow: column;
+main {
+  margin-top: 40px;
 }
